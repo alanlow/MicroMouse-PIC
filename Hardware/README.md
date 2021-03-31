@@ -1,1 +1,1 @@
-This is te hardware design for the micro mouse project
+This is the hardware design for the micro mouse project
