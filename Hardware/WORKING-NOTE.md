@@ -56,3 +56,17 @@ Current = 1.2A
    D ≥ 0.16
 
    Recommended Diode PN MBRA340T3G
+
+
+#### Loop compensation
+
+   Select Rcomp = 12k
+   fc = ( Rcomp x Vin ) / ( 4746 x 12u x Vout2)
+   fc = ( 12k x 3.7 ) / (4746 x 12u x 5 x 5 )
+   fc = 31.184 kHz
+
+   Ccomp = 2 / ( π x fc x Rcomp )
+   Ccomp = 1.7nF
+
+
+
