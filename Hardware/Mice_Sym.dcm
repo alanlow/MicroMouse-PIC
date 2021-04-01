@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP1612
+D 650 kHz /1.3 MHz Step-Up PWM DC-to-DC Switching Converters
+$ENDCMP
+#
+#End Doc Library

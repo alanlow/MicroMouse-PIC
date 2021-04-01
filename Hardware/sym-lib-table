@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Mice_Sym)(type Legacy)(uri ${KIPRJMOD}/Mice_Sym.lib)(options "")(descr ""))
+)
