@@ -49,3 +49,10 @@ Current = 1.2A
    Select 10uF + 1uF + 1uF
 
 
+#### Diode Selection
+
+   D ≥ ( Vout - Vin(max) ) / Vout
+   D ≥ ( 5 - 4.2 ) / 5
+   D ≥ 0.16
+
+   Recommended Diode PN MBRA340T3G
