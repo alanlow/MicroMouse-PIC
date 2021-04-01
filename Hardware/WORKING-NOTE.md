@@ -38,8 +38,14 @@ Current = 1.2A
    dIl = (3.7 x 0.2u) / 4.7u
    dIl = 157mA
 
+#### Cout selection
+   let dVout is 20mV
+   let Cin is 10uF
 
+   Cout ≥ (Iout x ( Vout - Vin )) / ( fsw x Vout x dVout )
+   Cout ≥ (1.2 x ( 5 - 3.7 )) / ( 1.3M x 5 x 20m )
+   Cout ≥ 12uF
 
-
+   Select 10uF + 1uF + 1uF
 
 
