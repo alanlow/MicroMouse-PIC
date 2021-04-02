@@ -68,5 +68,19 @@ Current = 1.2A
    Ccomp = 2 / ( π x fc x Rcomp )
    Ccomp = 1.7nF
 
+#### Enable Computation
+
+   Enable Threshold = 1.6V
+   Vmin = 3V
+
+   Ven = ( R2 x Vin ) / ( R1 + R2 )
+    R1 = (( R2 x Vin ) / Ven ) - R2
+
+   Select R2 10k
+
+    R1 = (( 10k x 3 ) / 1.6 ) - 10k)
+    R1 = 8.75k Select nearest value 8.2k
+
+  
 
 
