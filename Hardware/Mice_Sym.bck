@@ -8,4 +8,8 @@ $CMP ADP1612
 D 650 kHz /1.3 MHz Step-Up PWM DC-to-DC Switching Converters
 $ENDCMP
 #
+$CMP PIC16F886-E_SO
+D IC MCU 8BIT 14KB FLASH 28SOIC
+$ENDCMP
+#
 #End Doc Library
